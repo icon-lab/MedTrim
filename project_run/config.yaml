@@ -1,0 +1,20 @@
+data:
+  img_df: "~/img_df.csv"
+  text_df: "~/txt_df.csv"
+  triplet_csv: "~/triplet.csv.xz"
+  model_save_path: "./saved_models"
+
+training:
+  batch_size: 64
+  num_workers: 16
+  learning_rate: 2e-5
+  weight_decay: 5e-4
+  num_epochs: 20
+  save_freq: 1
+  device: "cuda:1"
+  random_seed: 42
+
+models:
+  text_model: "emilyalsentzer/Bio_ClinicalBERT" # for smaller GPU RAM, you can use alternatively prajjwal1/bert-small
+  img_model: "google/vit-base-patch16-224" # for smaller GPU RAM, you can use alternatively WinKawaks/vit-small-patch16-224
+  margin: 0.3
