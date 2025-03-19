@@ -6,12 +6,12 @@ channels:
   - pytorch
   - defaults
 dependencies:
-  - nltk==3.6.7
-  - numpy==1.19.5
-  - pandas==1.1.5
-  - pillow==11.1.0
-  - pyyaml==6.0.2
-  - torch==1.10.2+cu113
-  - torchvision==0.11.3+cu113
-  - tqdm==4.62.3
-  - transformers==4.18.0
+  - nltk==3.8.1
+  - numpy==1.24.3
+  - pandas==2.0.3
+  - pillow==10.0.1
+  - pyyaml==6.0.1
+  - torch==1.13.1+cu117
+  - torchvision==0.14.1+cu117
+  - tqdm==4.66.1
+  - transformers==4.34.0
