@@ -3,7 +3,6 @@
   MedTrim <br>
   <sub>MedTrim: Meta-Entity Driven Triplet Mining for Aligning Medical Vision-Language Models</sub>
 </h1>
-<hr>
 
 Official PyTorch implementation of **MedTrim**
 
@@ -91,3 +90,18 @@ This document provides descriptions for the configurable parameters in the `conf
 | `--models.margin`            | Margin value for triplet loss.                                                                                                  |
 
 ---
+
+## ✒️ Citation
+You are encouraged to modify/distribute this code. However, please acknowledge this code and cite the paper appropriately.
+```
+@article{,
+  title={MedTrim: Meta-Entity Driven Triplet Mining for Aligning Medical Vision-Language Models}, 
+  author={},
+  year={},
+  journal={}
+}
+```
+
+<hr>
+
+Copyright © 2025, ICON Lab.
