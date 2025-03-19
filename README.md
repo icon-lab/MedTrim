@@ -64,3 +64,30 @@ Run the following command to start training:
 ```
 python project_run/main.py
 ```
+
+# Argument Descriptions
+
+This document provides descriptions for the configurable parameters in the `config.yaml` file.
+
+## **Arguments Table**
+
+| Argument                     | Description                                                                                                                       |
+|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| `--config`                   | Path to the configuration file.                                                                                                  |
+| `--data.img_df`              | Path to the image dataset CSV file.                                                                                              |
+| `--data.text_df`             | Path to the text dataset CSV file.                                                                                               |
+| `--data.triplet_csv`         | Path to the triplet CSV file containing triplet samples.                                                                        |
+| `--data.model_save_path`     | Directory path where trained models will be saved.                                                                              |
+| `--training.batch_size`      | Batch size for training.                                                                                                        |
+| `--training.num_workers`     | Number of workers for data loading.                                                                                             |
+| `--training.learning_rate`   | Learning rate for optimizers.                                                                                                   |
+| `--training.weight_decay`    | Weight decay (L2 regularization) for optimizer.                                                                                |
+| `--training.num_epochs`      | Number of epochs to train the model.                                                                                            |
+| `--training.save_freq`       | Frequency (in epochs) to save model checkpoints.                                                                                |
+| `--training.device`          | Device for training (e.g., `cuda:0`, `cuda:1`, `cpu`).                                                                          |
+| `--training.random_seed`     | Random seed for reproducibility.                                                                                                |
+| `--models.text_model`        | Pretrained transformer model for text encoding (default: `"emilyalsentzer/Bio_ClinicalBERT"`).                                 |
+| `--models.img_model`         | Pretrained vision model for image encoding (default: `"google/vit-base-patch16-224"`).                                         |
+| `--models.margin`            | Margin value for triplet loss.                                                                                                  |
+
+---
