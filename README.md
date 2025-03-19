@@ -56,3 +56,11 @@ Run the following command to start Triplet Generation Algorithm:
 python data/run_triplet_generation.py --input /path/to/input.pkl --output /path/to/output.csv.xz \
     --threshold 0.25 --semi_hard_prob 1.0 --big_batch_size 512 --mini_batch_size 32 --total_iter 40000
 ```
+
+## 🏃 Training
+
+Run the following command to start training:
+
+```
+python project_run/main.py
+```
