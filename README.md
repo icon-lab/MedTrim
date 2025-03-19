@@ -11,7 +11,7 @@ Official PyTorch implementation of **MedTrim**
 This repository has been developed and tested with `CUDA 11.7` and `Python 3.8`. Below commands create a conda environment with required packages. Make sure conda is installed.
 
 ```
-conda env create --file requirements.txt
+conda env create --file requirements.yaml
 conda activate medtrim
 ```
 
